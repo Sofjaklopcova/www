@@ -1,0 +1,75 @@
+h1 {
+    border-bottom: 3px dotted ;
+     color: rgba(64, 3, 77, 0.705);
+     width: 1000px;
+     margin: auto auto;
+     text-shadow: 2px 2px rgb(237, 171, 240);
+    
+     
+    
+ 
+ }
+ hr {
+     color: rgb(134, 247, 28);
+ }
+ body {
+     font-family: 'Lucida Sans', 
+     text-align center;
+     padding: 10px;
+     font-size: 20px;
+     text-transform: uppercase;
+     border: 5px solid pink; 
+      background-color: rgba(210, 250, 240, 0.589);  
+     
+ }
+ header {
+     text-align: center;
+ }
+ main {
+     margin: 50px auto;
+     width: 1200px;
+ 
+ padding: 20px;
+ }
+
+    
+ 
+ h3 {
+     color: rgb(12, 123, 143);
+     font-family: "Lucida Console"
+     
+
+  }
+ p{     
+  text-indent: 50px;
+  line-height: 150%;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-size: 120%;
+  border-radius: 10px;
+  font-family: "Verdana"
+
+
+}
+
+
+  body {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+main {
+    width: 1200px;
+    margin: auto auto;
+    
+    padding: 20px;
+}
+.otazka {
+    color: rgb(255, 5, 5);
+    background-color: cornsilk;
+    padding: 3mm;
+
+}
+.odpoved {
+    border-left: 10px solid black;
+    
+}
+
