@@ -1,16 +1,17 @@
 h1 {
-    border-bottom: 3px dotted ;
-     color: rgba(64, 3, 77, 0.705);
+    border-bottom: 5px dotted ;
+     color: rgba(234, 0, 247, 0.705);
      width: 1000px;
      margin: auto auto;
-     text-shadow: 2px 2px rgb(237, 171, 240);
+     text-shadow: 4px 4px rgb(0, 0, 0);
+     background-color: rgb(111, 247, 179);
     
      
     
  
  }
  hr {
-     color: rgb(134, 247, 28);
+     color: rgb(78, 250, 126);
  }
  body {
      font-family: 'Lucida Sans', 
@@ -18,8 +19,8 @@ h1 {
      padding: 10px;
      font-size: 20px;
      text-transform: uppercase;
-     border: 5px solid pink; 
-      background-color: rgba(210, 250, 240, 0.589);  
+     border: 5px solid rgb(221, 35, 238); 
+      background-color: rgb(255, 255, 255);  
      
  }
  header {
@@ -31,11 +32,19 @@ h1 {
  
  padding: 20px;
  }
+ h2{
+    border-bottom: 7px  ;
+    color: rgb(0, 0, 0);
+    width: 1000px;
+    margin: auto auto;
+    text-shadow: 2px 4px rgb(203, 93, 218);
+   
+ }
 
     
  
  h3 {
-     color: rgb(12, 123, 143);
+     color: rgb(119, 0, 143);
      font-family: "Lucida Console"
      
 
@@ -45,17 +54,17 @@ h1 {
   line-height: 150%;
   margin-left: 70px;
   margin-right: 70px;
-  font-size: 120%;
+  font-size: 130%;
   border-radius: 10px;
-  font-family: "Verdana"
+  font-family: "Lucida Handwriting";
 
 
 }
 
 
   body {
-    font-family: Arial, Helvetica, sans-serif ;
-}
+
+  }
 main {
     width: 1200px;
     margin: auto auto;
@@ -63,19 +72,33 @@ main {
     padding: 20px;
 }
 .otazka {
-    color: rgb(255, 5, 5);
-    background-color: cornsilk;
+    color: rgb(0, 0, 0);
+    background-color: rgb(229, 221, 230);
     padding: 3mm;
+    border-radius: 5px
+    font-family: "Lucida Handwriting"
+    text-indent: 50px;
+  line-height: 150%;
+  margin-left: 30px;
+  margin-right: 70px;
+  font-size: 120%;
 
 }
 .odpoved {
-    border-left: 10px solid black;
+    text-indent: 50px;
+  line-height: 100%;
+  margin-left: 50px;
+  margin-right: 50px;
     
 }
 
 table, td{
     border: 1x solid rgb(0, 0, 0)
     border-collapse: collapse;
+    border-style: solid;
+    border-radius: 5px
+   
+    
 
 }
 
@@ -84,9 +107,9 @@ td, th {
 }
 
 th{
-    background-color: blueviolet;
-    color: #eee;
+    background-color: rgb(111, 247, 179);
+    color: rgb(36, 8, 31);
 }
 .error {
-    background-color: rgb(196, 49, 44);
+    background-color: rgb(243, 146, 143);
 }
