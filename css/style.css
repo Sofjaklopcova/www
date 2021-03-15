@@ -5,11 +5,16 @@ h1 {
      margin: auto auto;
      text-shadow: 4px 4px rgb(0, 0, 0);
      background-color: rgb(111, 247, 179);
+     border-radius: 5px
     
      
-    
- 
- }
+
+    }
+
+    h4{
+        border-bottom: 3px dotted rgb(215, 70, 252);
+
+    }
  hr {
      color: rgb(78, 250, 126);
  }
@@ -96,7 +101,8 @@ table, td{
     border: 1x solid rgb(0, 0, 0)
     border-collapse: collapse;
     border-style: solid;
-    border-radius: 5px
+    border-radius: 5px;
+    margin: 20px 0px;
    
     
 
@@ -112,4 +118,21 @@ th{
 }
 .error {
     background-color: rgb(243, 146, 143);
+}
+.silny {
+   
+    background-color: rgb(111, 247, 179);
+    border-radius: 5px;
+    color: black
+}
+.kurziva {
+  color: rgb(119, 0, 143);
+}
+.zavorky {
+    color: rgb(51, 1, 61);
+}
+.zkratky {
+    background-color: rgb(164, 247, 205);
+    border-radius: 3px;
+
 }
